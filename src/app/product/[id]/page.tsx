@@ -31,7 +31,7 @@ export default function ProductPage({ params }: ProductPageProps) {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <Link href="/products" className="text-blue-600 hover:underline mb-4 inline-block">
+      <Link href="/product" className="text-blue-600 hover:underline mb-4 inline-block">
         ← Back to Products
       </Link>
       <div className="flex flex-col md:flex-row gap-8">
