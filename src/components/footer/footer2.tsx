@@ -8,7 +8,7 @@ const taviraj = Taviraj({ subsets: ['latin'], weight: ['400', '700'] });
 
 export default function Footer2() {
   return (
-    <div className="w-full md:w-[1440px] bg-btn text-white px-6 sm:px-10 lg:px-20 py-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div className="w-full md:w-[1440px] bg-[#5E686D] text-white px-6 sm:px-10 lg:px-20 py-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       {/* Column 1 */}
       <div className='mx-auto'>
         <Image

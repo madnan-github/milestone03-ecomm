@@ -65,7 +65,7 @@ export default function Hero() {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row items-center mt-8 gap-4">
-            {/* Add to Cart Button */}
+            {/* Add to Cart Button
             <div className="flex items-center justify-center w-[208px] h-[62px] bg-btn hover:bg-[#b84329] text-white text-xl">
               <Link href={"/product"} className="flex items-center">
                 <CiShoppingCart className="w-[32px] h-[32px] mr-3" />
@@ -73,7 +73,7 @@ export default function Hero() {
                   <Link href={'/cart'} >Add to cart</Link>
                 </span>
               </Link>
-            </div>
+            </div> */}
 
             {/* Second Button */}
             <div className="animate-pulse flex items-center justify-center w-[140px] h-[62px] border-2 border-btn">
